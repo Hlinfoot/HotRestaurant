@@ -1,6 +1,25 @@
-var reservations = [];
+var reservations = [
+    {
+        customerName: "Rick Sanchez",
+        customerEmail: "RSanchez@gmail.com",
+        customerID: "RicknMorty69",
+        phoneNumber: "000-000-0000"
+      }
+    ];
 
-var waitList = [ ];
+var waitList = [
+    {
+    customerName: "Fry",
+    customerEmail: "PhillipJFry@Futurama.com",
+    phoneNumber: "000-000-0000",
+    customerID: "Frylock"
+  } ];
+
+  module.exports = waitList;
+
+  module.exports = reservations;
+
+
 
 // Dependencies
 
