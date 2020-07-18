@@ -1,6 +1,6 @@
 var reservations = [];
 
-var waitList = [ ]
+var waitList = [ ];
 
 // Dependencies
 
