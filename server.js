@@ -1,3 +1,7 @@
+var reservations = [];
+
+var waitList = [ ]
+
 // Dependencies
 
 var express = require("express");
@@ -12,9 +16,6 @@ app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 
 //Reservations Data Here
-var reservations = [];
-
-var waitlist = [ ];
 
 app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, "view.html"));
