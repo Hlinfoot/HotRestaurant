@@ -20,6 +20,17 @@ var waitList = [
   module.exports = reservations;
 
 
+var reservations = require("server.js");
+var waitList = require("server.js");
+
+module.exports = function(app) {
+
+    app.get("/api/tableList", function(req, res) {
+        res.json(reservations);
+    });
+    
+}
+
 
 // Dependencies
 
